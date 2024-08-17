@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import { Card } from "./ui/card";
 import Link from "next/link";
 import Section from "./Section";
 
@@ -18,8 +17,8 @@ const Contact = () => {
     <Section className="flex flex-col gap-4">
       <h2>Contact</h2>
       <p>
-        I'm always open to new opportunities and collaborations. Feel free to
-        reach me.
+        I&apos;m always open to new opportunities and collaborations. Feel free
+        to reach me.
       </p>
       <div className="flex gap-12  flex-wrap justify-center">
         {LIST_CONTACT.map((contact: ContactType) => (
@@ -27,6 +26,7 @@ const Contact = () => {
             variant="link"
             size="lg"
             className=" flex flex-row items-center"
+            key={contact.id}
           >
             <Link
               href={contact.link}
