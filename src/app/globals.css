@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 11.11% 96.47%;
+    --foreground: 0 0% 11.76%;
+    --muted: 0 0% 87.84%;
+    --muted-foreground: 0 0% 42.75%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 11.76%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 11.76%;
+    --border: 0 0% 86.67%;
+    --input: 0 0% 86.67%;
+    --primary: 209.86 100% 42.94%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 90.77%;
+    --secondary-foreground: 0 0% 11.76%;
+    --accent: 216 10.2% 90.39%;
+    --accent-foreground: 0 0% 11.76%;
+    --destructive: 356.94 100% 46.08%;
+    --destructive-foreground: 0 0% 100%;
+    --ring: 209.86 100% 42.94%;
+    --radius: 0.5rem;
+    --font-geist-sans: "GeistSans", sans-serif;
+    --font-geist-mono: "GeistMono", monospace;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-mono;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1 {
+    @apply scroll-m-20 text-3xl  md:text-3xl lg:text-4xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply scroll-m-20 text-2xl md:text-2xl lg:text-3xl  font-semibold tracking-tight first:mt-0;
+  }
+  h3 {
+    @apply scroll-m-20 text-xl md:text-xl lg:text-2xl font-medium tracking-tight first:mt-0;
+  }
+  p {
+    @apply text-lg;
+  }
+}
