@@ -7,13 +7,8 @@ import Section from "./Section";
 import Span from "./ui/Span";
 
 // icons
-import { TypeScriptIcon } from "./icons/TypeScriptIcon";
-import { ReactIcon } from "./icons/ReactIcon";
 import { BlockchainIcon } from "./icons/BlockChainIcon";
 import { EarthIcon } from "./icons/EarthIcon";
-
-// components
-import Contact from "./Contact";
 
 const Introduction = () => {
   return (
@@ -26,9 +21,10 @@ const Introduction = () => {
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
           <div className=" rounded-full w-[350px] h-[350px] relative ">
             <Image
-              src="/assets/photo_profile.jpeg"
+              src="/assets/photo_profile.jpg"
               alt="Picture of the author"
               fill
+              priority
               className="rounded-full aspect-square object-cover"
             />
           </div>

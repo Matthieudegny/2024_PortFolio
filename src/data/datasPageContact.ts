@@ -30,7 +30,7 @@ export const LIST_CONTACT: ContactType[] = [
   {
     id: 4,
     title: "Email me",
-    imageUrl: "/assets/photo_profile.jpeg",
+    imageUrl: "/assets/photo_profile.jpg",
     link: "mailto:matthieu.degny.dev@gmail.com",
     descriptionImage: "Picture of the author",
   },
