@@ -17,12 +17,10 @@ const Project = () => {
           <div className="flex items-center justify-between">
             <h3>Stock Market Dashboard</h3>
             <div className="hidden md:block">
-              <Link
+              <a
                 href="https://dashboard-front-pink.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                passHref
-                legacyBehavior
               >
                 <Button
                   variant="default"
@@ -33,7 +31,7 @@ const Project = () => {
                   <ChartCandlestick size={20} />
                   Try Stock Market Dashboard
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
           <p>
