@@ -9,7 +9,13 @@ import { ChevronDown } from "lucide-react";
 
 // component
 import Section from "./Section";
-import { Card, CardTitle, CardHeader, CardDescription } from "./ui/card";
+import {
+  Card,
+  CardTitle,
+  CardSubTitle,
+  CardHeader,
+  CardDescription,
+} from "./ui/card";
 import { Button } from "./ui/button";
 
 // datas
@@ -79,9 +85,9 @@ const CardSubSkillItem = ({ subSkill }: { subSkill: SUBSKILLTYPE }) => {
           </div>
         )
       )}
-      <CardTitle className="flex items-center font-semibold tracking-tight mt-0 text-sm md:text-base lg:text-base">
+      <CardSubTitle className="flex items-center font-semibold tracking-tight mt-0 text-sm md:text-base lg:text-base">
         {subSkill.title}
-      </CardTitle>
+      </CardSubTitle>
     </Card>
   );
 };

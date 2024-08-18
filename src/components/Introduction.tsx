@@ -12,7 +12,7 @@ import { EarthIcon } from "./icons/EarthIcon";
 
 const Introduction = () => {
   return (
-    <Section className="flex flex-col gap-20">
+    <Section className="flex flex-col gap-8 pt-4 lg:gap-20">
       <div className="flex  flex-col md:flex-row items-center justify-center gap-8 md:gap-4 px-2 pt-2">
         <div className=" order-1 md:order-2 flex flex-col items-start  gap-8 justify-evenly flex-grow w-[100%] md:w-[50%] px-2 lg-px-0 ">
           <h1>Matthieu DEGNY</h1>
