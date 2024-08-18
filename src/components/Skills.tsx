@@ -89,7 +89,7 @@ const Skills = () => {
   const [showListSubSkills, setshowListSubSkills] = useState(false);
   return (
     <Section className="flex flex-col gap-4">
-      <h2 className="">How I can help you?</h2>
+      <h2>How I can help you?</h2>
       <p>
         I can create perfect experiences for your customer, making all the
         applications from scratch.

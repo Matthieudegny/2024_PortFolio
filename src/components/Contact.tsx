@@ -20,7 +20,7 @@ const Contact = () => {
         I&apos;m always open to new opportunities and collaborations. Feel free
         to reach me.
       </p>
-      <div className="flex gap-4 md:gap-12  flex-wrap justify-center">
+      <div className="flex gap-4 md:gap-12  flex-wrap justify-center mt-4">
         {LIST_CONTACT.map((contact: ContactType) => (
           <Button
             variant="link"

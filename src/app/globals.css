@@ -49,10 +49,13 @@ h6 {
     @apply scroll-m-20 text-3xl  md:text-3xl lg:text-4xl font-bold tracking-tight;
   }
   h2 {
-    @apply scroll-m-20 text-2xl md:text-2xl lg:text-3xl  font-semibold tracking-tight first:mt-0;
+    @apply scroll-m-20 text-2xl md:text-2xl lg:text-3xl  font-semibold tracking-tight pb-2;
   }
   h3 {
-    @apply scroll-m-20 text-xl md:text-xl lg:text-2xl font-medium tracking-tight first:mt-0;
+    @apply scroll-m-20 text-xl md:text-xl lg:text-2xl font-medium tracking-tight;
+  }
+  h4 {
+    @apply scroll-m-20 text-xl md:text-xl font-medium tracking-tight;
   }
   p {
     @apply text-lg;

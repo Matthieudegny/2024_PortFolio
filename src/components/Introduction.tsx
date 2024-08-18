@@ -12,7 +12,7 @@ import { EarthIcon } from "./icons/EarthIcon";
 
 const Introduction = () => {
   return (
-    <Section className="flex flex-col gap-8">
+    <Section className="flex flex-col gap-20">
       <div className="flex  flex-col md:flex-row items-center justify-center gap-8 md:gap-4 px-2 pt-2">
         <div className=" order-1 md:order-2 flex flex-col items-start  gap-8 justify-evenly flex-grow w-[100%] md:w-[50%] px-2 lg-px-0 ">
           <h1>Matthieu DEGNY</h1>
@@ -30,19 +30,20 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-      <h3 className="scroll-m-20  leading-10 first:mt-0 -mt-2">
+      <h4 className="scroll-m-20 leading-8 md:leading-10 ">
         A player in the digital revolution, passionate about{" "}
-        <Span className="inline-flex items-center gap-1">
-          <EarthIcon size={25} />
+        <Span>
+          <EarthIcon size={20} />
           web development
         </Span>{" "}
-        and high-tech activities, particularly interested in{" "}
-        <Span className="inline-flex items-center gap-1">
-          <BlockchainIcon size={25} />
+        and high-tech activities. <br className="block md:hidden" />
+        <br className="block md:hidden" />I am particularly interested in{" "}
+        <Span>
+          <BlockchainIcon size={20} />
           blockchain technology
         </Span>
         .
-      </h3>
+      </h4>
     </Section>
   );
 };
