@@ -37,7 +37,7 @@ export const LIST_CONTACT: ContactType[] = [
     id: 5,
     title: "Resume",
     Icon: Download,
-    link: "/Matthieu Degny Resume.pdf",
+    link: "/MatthieuDegnyCV.pdf",
     descriptionImage: "Download icon",
   },
 ];
