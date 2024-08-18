@@ -110,7 +110,7 @@ const Skills = () => {
 
       <Card className="p-6 w-[100%] md:w-[calc(50% - 0.5rem] gap-0">
         <CardHeader className="flex flex-row items-center justify-between">
-          <CardTitle className="flex items-center font-semibold tracking-tight mt-0">
+          <CardTitle className="flex items-center font-semibold tracking-tight mt-0 pb-0">
             React eco-system
           </CardTitle>
           <Button
@@ -135,7 +135,7 @@ const Skills = () => {
           className={`transition-height ${showListSubSkills ? "show" : ""} `}
         >
           <div
-            className={` flex flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-10 pt-4 pb-3`}
+            className={` flex flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-10 md:px-8 pt-4 pb-3`}
           >
             {LIST_SUB_SKILLS.map((subSkillParent: SUBSKILLPARENTTYPE) => (
               <CardSubSkillContainer
