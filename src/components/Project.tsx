@@ -62,6 +62,7 @@ const Project = () => {
             loop
             muted
             autoPlay
+            playsInline
             controls
             className={`w-full  object-cover  
     rounded-md

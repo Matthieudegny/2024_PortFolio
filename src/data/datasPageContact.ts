@@ -2,7 +2,6 @@ import { ContactType } from "@/models/Contact_model";
 
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
-import { MaltIcon } from "@/components/icons/MaltIcon";
 import { Download } from "lucide-react";
 
 export const LIST_CONTACT: ContactType[] = [
@@ -38,7 +37,7 @@ export const LIST_CONTACT: ContactType[] = [
     id: 5,
     title: "Resume",
     Icon: Download,
-    link: "/assets/Matthieu_Degny_Resume.pdf",
+    link: "/Matthieu Degny Resume.pdf",
     descriptionImage: "Download icon",
   },
 ];
