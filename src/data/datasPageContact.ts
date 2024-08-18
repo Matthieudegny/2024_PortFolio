@@ -23,7 +23,7 @@ export const LIST_CONTACT: ContactType[] = [
     id: 3,
     title: "Malt",
     imageUrl: "/assets/MaltImage.png",
-    link: "https://www.malt.fr/profile/matthieudegny",
+    link: "https://www.malt.fr/profile/matthieudegny1",
     descriptionImage: "Malt logo",
   },
   {
