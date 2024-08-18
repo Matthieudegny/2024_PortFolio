@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
@@ -22,7 +23,10 @@ export default function RootLayout({
           content={String(metadata.description) ?? "Default Description"}
         />
       </Head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
