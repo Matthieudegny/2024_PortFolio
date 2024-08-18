@@ -8,7 +8,7 @@ export const Span = ({
 }: ComponentPropsWithoutRef<"span">) => {
   return (
     <span
-      className="bg-accent/30 hover:bg-accent/50 transition-colors font-mono border border-accent px-2 rounded-sm text-primary leading:4 md:leading-8 inline-flex items-center gap-1"
+      className="bg-accent/10 hover:bg-accent/50 transition-colors font-mono border border-accent px-2 rounded-sm text-primary leading:4 md:leading-8 inline-flex items-center gap-1"
       {...props}
     />
   );

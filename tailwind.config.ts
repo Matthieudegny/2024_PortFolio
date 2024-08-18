@@ -22,6 +22,9 @@ const config = {
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
       },
+      maxWidth: {
+        "6.5xl": "76rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

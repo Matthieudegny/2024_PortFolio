@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
-
 import Link from "next/link";
+
+// component
 import Section from "./Section";
+import { Button } from "./ui/button";
 
 // model
 import { ContactType } from "@/models/Contact_model";
@@ -10,12 +12,10 @@ import { ContactType } from "@/models/Contact_model";
 // data
 import { LIST_CONTACT } from "@/data/datasPageContact";
 
-import { Button } from "./ui/button";
-
 const Contact = () => {
   return (
     <Section className="flex flex-col gap-4">
-      <h2>Contact</h2>
+      <h3>Contact</h3>
       <p>
         I&apos;m always open to new opportunities and collaborations. Feel free
         to reach me.
@@ -25,14 +25,14 @@ const Contact = () => {
           <Button
             variant="link"
             size="lg"
-            className=" flex flex-row items-center"
+            className=" flex flex-row items-center p-0"
             key={contact.id}
           >
             <Link
               href={contact.link}
               target="_blank"
               download={contact.title === "Resume" ? true : undefined}
-              className="item-center transition-colors rounded flex items-center"
+              className="item-center transition-colors rounded flex items-center justify-center p-3 hover:bg-white min-w-28"
             >
               {contact.Icon ? (
                 <div className="w-[20px] h-[20px] lg:h-[30px] lg:w-[40px] rounded-full flex items-center justify-center mr-2 lg:mr-0">

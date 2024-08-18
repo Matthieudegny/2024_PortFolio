@@ -14,7 +14,7 @@
     --card-foreground: 0 0% 11.76%;
     --border: 0 0% 86.67%;
     --input: 0 0% 86.67%;
-    --primary: 209.86 100% 42.94%;
+    --primary: 209.86 100% 30%;
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 90.77%;
     --secondary-foreground: 0 0% 11.76%;
@@ -49,13 +49,13 @@ h6 {
     @apply scroll-m-20 text-3xl  md:text-3xl lg:text-4xl font-bold tracking-tight;
   }
   h2 {
-    @apply scroll-m-20 text-2xl md:text-2xl lg:text-3xl  font-semibold tracking-tight pb-2;
+    @apply scroll-m-20 text-2xl md:text-2xl lg:text-2xl  font-semibold tracking-tight pb-2;
   }
   h3 {
-    @apply scroll-m-20 text-xl md:text-xl lg:text-2xl font-medium tracking-tight;
+    @apply scroll-m-20 text-xl md:text-xl lg:text-2xl font-bold tracking-tight;
   }
   h4 {
-    @apply scroll-m-20 text-xl md:text-xl font-medium tracking-tight;
+    @apply scroll-m-20 text-xl md:text-xl font-semibold;
   }
   p {
     @apply text-lg;

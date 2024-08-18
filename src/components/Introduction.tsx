@@ -30,7 +30,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-      <h4 className="scroll-m-20 leading-8 md:leading-10 ">
+      <h2 className=" leading-8 md:leading-10 font-light">
         A player in the digital revolution, passionate about{" "}
         <Span>
           <EarthIcon size={20} />
@@ -43,7 +43,7 @@ const Introduction = () => {
           blockchain technology
         </Span>
         .
-      </h4>
+      </h2>
     </Section>
   );
 };

@@ -2,14 +2,15 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
+import "../style/animation.css";
+
+// icons
 import { ChevronDown } from "lucide-react";
 
+// component
 import Section from "./Section";
-
 import { Card, CardTitle, CardHeader, CardDescription } from "./ui/card";
 import { Button } from "./ui/button";
-
-import "../style/animation.css";
 
 // datas
 import { LIST_MAIN_SKILLS, LIST_SUB_SKILLS } from "../data/datasPageSkills";
@@ -89,7 +90,7 @@ const Skills = () => {
   const [showListSubSkills, setshowListSubSkills] = useState(false);
   return (
     <Section className="flex flex-col gap-4">
-      <h2>How I can help you?</h2>
+      <h3>How I can help you?</h3>
       <p>
         I can create perfect experiences for your customer, making all the
         applications from scratch.
@@ -110,6 +111,7 @@ const Skills = () => {
             variant="outline"
             size="icon"
             onClick={() => setshowListSubSkills(!showListSubSkills)}
+            aria-label="Show sub skills"
           >
             <ChevronDown
               className="h-4 w-4"

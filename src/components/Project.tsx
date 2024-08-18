@@ -1,8 +1,7 @@
 import React from "react";
 
+// compoenent
 import Section from "./Section";
-import Link from "next/link";
-
 import { Button } from "./ui/button";
 
 import { ChartCandlestick } from "lucide-react";
@@ -10,12 +9,12 @@ import { ChartCandlestick } from "lucide-react";
 const Project = () => {
   return (
     <Section className="flex flex-col gap-4">
-      <h2 className="">Project Selected</h2>
+      <h3>Project Selected</h3>
 
       <div className="flex flex-col gap-4 ">
         <article className="flex flex-col gap-4 w-[100%] ">
           <div className="flex items-center justify-between">
-            <h3>Stock Market Dashboard</h3>
+            <h4>Stock Market Dashboard</h4>
             <div className="hidden md:block">
               <a
                 href="https://dashboard-front-pink.vercel.app/"
@@ -46,7 +45,7 @@ const Project = () => {
             helping users identify their weaknesses and refine their strategies
             over time (no responsive).
           </p>
-          <h3>Technologies Used:</h3>
+          <h4>Technologies Used:</h4>
           <ul className="flex flex-col gap-2">
             <li>
               <strong>Front-End:</strong> TypeScript, React, React Query, React
