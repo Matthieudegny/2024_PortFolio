@@ -33,7 +33,7 @@ const Introduction = () => {
         </div>
       </div>
       <h2 className=" leading-8 md:leading-10 font-light">
-        A Contributor in the digital revolution, passionate about{" "}
+        A contributor in the digital revolution, passionate about{" "}
         <Span>
           <span role="img" aria-hidden="true">
             <EarthIcon size={20} />
