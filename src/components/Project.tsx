@@ -4,6 +4,10 @@ import React from "react";
 import Section from "./Section";
 import { Button } from "./ui/button";
 
+// data
+import { LINK_PROJECT_DASHBOARD } from "../data/datasPageProject";
+
+// icons
 import { ChartCandlestick } from "lucide-react";
 
 const Project = () => {
@@ -17,7 +21,7 @@ const Project = () => {
             <h4>Stock Market Dashboard</h4>
             <div className="hidden md:block">
               <a
-                href="https://dashboard-front-pink.vercel.app/"
+                href={LINK_PROJECT_DASHBOARD}
                 target="_blank"
                 rel="noopener noreferrer"
               >
