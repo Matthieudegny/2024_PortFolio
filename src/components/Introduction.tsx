@@ -21,15 +21,14 @@ const Introduction = () => {
           </div>
         </div>
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
-          <div className=" rounded-full w-[350px] h-[350px] relative ">
-            <Image
-              src="/assets/photo_profile.jpg"
-              alt="Picture of the author"
-              fill
-              priority
-              className="rounded-full aspect-square object-cover"
-            />
-          </div>
+          <Image
+            src="/assets/photo_profile.jpg"
+            alt="Picture of the author"
+            width={350}
+            height={350}
+            priority
+            className="rounded-full aspect-square object-cover"
+          />
         </div>
       </div>
       <h2 className=" leading-8 md:leading-10 font-light">
@@ -37,18 +36,18 @@ const Introduction = () => {
         <Span>
           <span role="img" aria-hidden="true">
             <EarthIcon size={20} />
-          </span>
-          web development
+          </span>{" "}
+          web
         </Span>{" "}
-        and high-tech activities. <br className="block md:hidden" />
+        development and high-tech activities. <br className="block md:hidden" />
         <br className="block md:hidden" />I am particularly interested in{" "}
         <Span>
           <span role="img" aria-hidden="true">
             <BlockchainIcon size={20} />
-          </span>
-          blockchain technology
-        </Span>
-        .
+          </span>{" "}
+          blockchain
+        </Span>{" "}
+        technology .
       </h2>
     </Section>
   );
