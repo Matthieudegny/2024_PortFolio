@@ -10,6 +10,8 @@ import Span from "./ui/Span";
 import { BlockchainIcon } from "./icons/BlockChainIcon";
 import { EarthIcon } from "./icons/EarthIcon";
 
+const LINK_IMAGE_MATTHIEU_DEGNY = "/assets/photo_profile.jpg";
+
 const Introduction = () => {
   return (
     <Section className="flex flex-col gap-8 pt-4 lg:gap-20">
@@ -22,12 +24,12 @@ const Introduction = () => {
         </div>
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
           <Image
-            src="/assets/photo_profile.jpg"
+            src={LINK_IMAGE_MATTHIEU_DEGNY}
             alt="Matthieu DEGNY"
             width={350}
             height={350}
             priority
-            placeholder="blur"
+            // placeholder="blur"
             className="rounded-full aspect-square object-cover"
           />
         </div>
