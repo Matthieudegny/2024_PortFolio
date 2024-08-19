@@ -5,4 +5,5 @@ export interface ContactType {
   Icon?: React.FC;
   link: string;
   descriptionImage: string;
+  displaySectionIntro: boolean;
 }

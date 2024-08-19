@@ -11,6 +11,7 @@ export const LIST_CONTACT: ContactType[] = [
     Icon: LinkedinIcon,
     link: "https://www.linkedin.com/in/matthieu-degny/",
     descriptionImage: "Linkedin logo",
+    displaySectionIntro: true,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const LIST_CONTACT: ContactType[] = [
     Icon: GitHubIcon,
     link: "https://github.com/Matthieudegny",
     descriptionImage: "Github logo",
+    displaySectionIntro: true,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const LIST_CONTACT: ContactType[] = [
     imageUrl: "/assets/MaltImage.png",
     link: "https://www.malt.fr/profile/matthieudegny1",
     descriptionImage: "Malt logo",
+    displaySectionIntro: true,
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const LIST_CONTACT: ContactType[] = [
     imageUrl: "/assets/matthieu_degny.jpeg",
     link: "mailto:matthieu.degny.dev@gmail.com",
     descriptionImage: "Picture of the author",
+    displaySectionIntro: false,
   },
   {
     id: 5,
@@ -39,5 +43,6 @@ export const LIST_CONTACT: ContactType[] = [
     Icon: Download,
     link: "/MatthieuDegnyCV.pdf",
     descriptionImage: "Download icon",
+    displaySectionIntro: false,
   },
 ];
