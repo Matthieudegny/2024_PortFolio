@@ -10,7 +10,7 @@ import Span from "./ui/Span";
 import { BlockchainIcon } from "./icons/BlockChainIcon";
 import { EarthIcon } from "./icons/EarthIcon";
 
-const LINK_IMAGE_MATTHIEU_DEGNY = "/assets/photo_profile.jpg";
+import image from "../../public/assets/matthieu_degny.jpeg";
 
 const Introduction = () => {
   return (
@@ -24,12 +24,12 @@ const Introduction = () => {
         </div>
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
           <Image
-            src={LINK_IMAGE_MATTHIEU_DEGNY}
+            src={image}
             alt="Matthieu DEGNY"
             width={350}
             height={350}
             priority
-            // placeholder="blur"
+            placeholder="blur"
             className="rounded-full aspect-square object-cover"
           />
         </div>
