@@ -35,13 +35,17 @@ const Introduction = () => {
       <h2 className=" leading-8 md:leading-10 font-light">
         A Contributor in the digital revolution, passionate about{" "}
         <Span>
-          <EarthIcon size={20} />
+          <span role="img" aria-hidden="true">
+            <EarthIcon size={20} />
+          </span>
           web development
         </Span>{" "}
         and high-tech activities. <br className="block md:hidden" />
         <br className="block md:hidden" />I am particularly interested in{" "}
         <Span>
-          <BlockchainIcon size={20} />
+          <span role="img" aria-hidden="true">
+            <BlockchainIcon size={20} />
+          </span>
           blockchain technology
         </Span>
         .
