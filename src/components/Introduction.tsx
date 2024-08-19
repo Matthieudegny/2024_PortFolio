@@ -23,10 +23,11 @@ const Introduction = () => {
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
           <Image
             src="/assets/photo_profile.jpg"
-            alt="Picture of the author"
+            alt="Matthieu DEGNY"
             width={350}
             height={350}
             priority
+            placeholder="blur"
             className="rounded-full aspect-square object-cover"
           />
         </div>
