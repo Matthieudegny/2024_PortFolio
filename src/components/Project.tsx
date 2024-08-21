@@ -60,7 +60,7 @@ const Project = () => {
               Hook Form, Zustand, ApexCharts, Fullcalendar.
             </li>
             <li>
-              <strong>Back-End:</strong> TypeScript, Node.js ( Nest.js ).
+              <strong>Back-End:</strong> TypeScript, Node.js ( Nest.js ), Jest.
             </li>
           </ul>
         </article>
