@@ -15,7 +15,7 @@ import { EarthIcon } from "./icons/EarthIcon";
 // data
 import { LIST_CONTACT } from "@/data/datasPageContact";
 
-import image from "../../public/assets/matthieu_degny.jpeg";
+import profileImage from "../../public/assets/matthieu_degny.jpeg";
 
 const Introduction = () => {
   return (
@@ -59,6 +59,8 @@ const Introduction = () => {
                                   src={contact.imageUrl}
                                   alt={contact.descriptionImage}
                                   fill
+                                  priority
+                                  placeholder="blur"
                                   className=" object-cover rounded-full"
                                 />
                               </div>
@@ -75,7 +77,7 @@ const Introduction = () => {
         </div>
         <div className="order-2 md:order-1 flex items-center justify-center w-[100%] md:w-[50%] xl:w-[50%]">
           <Image
-            src={image}
+            src={profileImage}
             alt="Matthieu DEGNY"
             width={350}
             height={350}
@@ -93,15 +95,7 @@ const Introduction = () => {
           </span>{" "}
           web
         </Span>{" "}
-        development and high-tech activities. <br className="block md:hidden" />
-        <br className="block md:hidden" />I am particularly interested in{" "}
-        <Span>
-          <span role="img" aria-hidden="true">
-            <BlockchainIcon size={20} />
-          </span>{" "}
-          blockchain
-        </Span>{" "}
-        technology.
+        development and high-tech activities.
       </h2>
     </Section>
   );

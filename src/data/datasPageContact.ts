@@ -4,6 +4,8 @@ import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { Download } from "lucide-react";
 
+import imageMalt from "../../public/assets/MaltImage.png";
+
 export const LIST_CONTACT: ContactType[] = [
   {
     id: 1,
@@ -24,7 +26,7 @@ export const LIST_CONTACT: ContactType[] = [
   {
     id: 3,
     title: "Malt",
-    imageUrl: "/assets/MaltImage.png",
+    imageUrl: imageMalt,
     link: "https://www.malt.fr/profile/matthieudegny1",
     descriptionImage: "Malt logo",
     displaySectionIntro: true,
