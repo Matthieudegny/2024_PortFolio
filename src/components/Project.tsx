@@ -13,11 +13,11 @@ import { ChartCandlestick } from "lucide-react";
 const Project = () => {
   return (
     <Section className="flex flex-col gap-4">
-      <h3>Project Selected</h3>
+      <h3>Side Project Selected</h3>
 
       <div className="flex flex-col gap-4 ">
         <article className="flex flex-col gap-4 w-[100%] ">
-          <div className="flex items-center justify-between">
+          <div className="flex items-end justify-between">
             <h4>Stock Market Dashboard</h4>
             <div className="hidden md:block">
               <a
@@ -37,26 +37,30 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <p>
-            I developed a full-stack application designed to streamline and
-            synthesize stock market investment activities.
+          <p className="text-justify">
+            I created a full-stack application focused on enhancing stock market
+            investment processes. The application features dynamic dashboards
+            with interactive tables and detailed charts, allowing users to
+            synthesize their trading activities effectively. A calendar system
+            is also integrated to provide time-based documentation of investment
+            activities.
           </p>
-
-          <p>
-            Because we learn more from our failures than our successes, this
-            application allows for detailed documentation of investment
-            activity. It provides comprehensive graphs and in-depth analyses,
-            helping users identify their weaknesses and refine their strategies
-            over time (no responsive).
+          <p className="text-justify">
+            The backend is built with a RESTful API using Node.js (Nest.js), and
+            the data is managed through a MySQL database, ensuring efficient
+            storage and retrieval of user information. Additionally, the
+            application fetches real-time economic data, including BTC and
+            Nasdaq prices, from public APIs to offer users valuable insights for
+            their investment decisions.
           </p>
           <h4>Technologies Used:</h4>
           <ul className="flex flex-col gap-2">
             <li>
               <strong>Front-End:</strong> TypeScript, React, React Query, React
-              Hook Form, Zustand, ApexCharts.
+              Hook Form, Zustand, ApexCharts, Fullcalendar.
             </li>
             <li>
-              <strong>Back-End:</strong> TypeScript, Nest.js.
+              <strong>Back-End:</strong> TypeScript, Node.js ( Nest.js ).
             </li>
           </ul>
         </article>
