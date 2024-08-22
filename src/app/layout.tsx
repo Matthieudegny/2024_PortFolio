@@ -22,6 +22,9 @@ export default function RootLayout({
           name="description"
           content={String(metadata.description) ?? "Default Description"}
         />
+        <link rel="icon" href="/assets/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <body>
         {children}
