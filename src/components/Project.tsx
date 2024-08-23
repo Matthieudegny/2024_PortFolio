@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 // compoenent
 import Section from "./Section";
@@ -64,21 +64,28 @@ const Project = () => {
             </li>
           </ul>
         </article>
-        <div className="w-[100%] ">
-          <video
-            loop
-            muted
-            autoPlay
-            playsInline
-            preload="auto"
-            controls
-            className={`w-full  object-cover  
+        <Suspense fallback={<p>Loading video...</p>}>
+          <div className="w-[100%] ">
+            <figure>
+              <figcaption className="invisible">
+                Video demonstration of the Stock Market Dashboard
+              </figcaption>
+              <video
+                loop
+                muted
+                autoPlay
+                playsInline
+                preload="auto"
+                controls
+                className={`w-full  object-cover  
     rounded-md
         cursor-pointer`}
-          >
-            <source src={"/assets/MyDashBoardVideo.mp4"} type="video/mp4" />
-          </video>
-        </div>
+              >
+                <source src={"/assets/MyDashBoardVideo.mp4"} type="video/mp4" />
+              </video>
+            </figure>
+          </div>
+        </Suspense>
       </div>
     </Section>
   );

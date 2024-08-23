@@ -91,7 +91,7 @@ const Introduction = () => {
         A contributor in the digital revolution, passionate about{" "}
         <Span>
           <span role="img" aria-hidden="true">
-            <EarthIcon size={20} />
+            <EarthIcon size={20} aria-hidden="true" />
           </span>{" "}
           web
         </Span>{" "}
