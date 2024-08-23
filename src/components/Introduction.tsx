@@ -9,7 +9,6 @@ import Span from "./ui/Span";
 import { Button } from "./ui/button";
 
 // icons
-import { BlockchainIcon } from "./icons/BlockChainIcon";
 import { EarthIcon } from "./icons/EarthIcon";
 
 // data
@@ -90,10 +89,7 @@ const Introduction = () => {
       <h2 className=" leading-8 md:leading-10 font-light">
         A contributor in the digital revolution, passionate about{" "}
         <Span>
-          <span role="img" aria-hidden="true">
-            <EarthIcon size={20} aria-hidden="true" />
-          </span>{" "}
-          web
+          <EarthIcon size={20} aria-hidden="true" /> web
         </Span>{" "}
         development and high-tech activities.
       </h2>

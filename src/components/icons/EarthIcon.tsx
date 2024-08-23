@@ -7,6 +7,8 @@ export const EarthIcon = ({ size }: { size: number }) => {
       alt="Earth Icon"
       width={size}
       height={size}
+      aria-hidden="true"
+      role="img"
     />
   );
 };
