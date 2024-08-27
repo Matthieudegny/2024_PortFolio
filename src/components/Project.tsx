@@ -67,7 +67,7 @@ const Project = () => {
         <Suspense fallback={<p>Loading video...</p>}>
           <div className="w-[100%] ">
             <figure>
-              <figcaption className="invisible">
+              <figcaption className="invisible h-0">
                 Video demonstration of the Stock Market Dashboard
               </figcaption>
               <video
