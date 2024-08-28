@@ -86,6 +86,12 @@ const Introduction = () => {
           />
         </div>
       </div>
+      <h2 className="leading-8 md:leading-10 font-light">
+        I am a developer with a full-stack background, but specialized in
+        front-end, particularly in <strong>TypeScript</strong> and{" "}
+        <strong>React</strong>. I have delved deep into the React ecosystem to
+        manage the entire client-side spectrum.
+      </h2>
       <h2 className=" leading-8 md:leading-10 font-light">
         A contributor in the digital revolution, passionate about{" "}
         <Span>

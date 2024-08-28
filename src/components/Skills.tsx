@@ -147,8 +147,13 @@ const Skills = () => {
         </div>
       </Card>
       <p>
-        I am also familiar with backend logic, including RESTful APIs and
-        frameworks such as C#, Node.js (Express, Nest.js).
+        I have hands-on experience working on full-stack applications, including
+        monolithic architectures and RESTful APIs. I’m well-versed in building
+        and enhancing backend systems using technologies such as C# and Node.js
+        (Express, Nest.js). My expertise allows me to not only develop backend
+        solutions but also to collaborate effectively with the technical team,
+        ensuring seamless integration and a deep understanding of the tasks at
+        hand.
       </p>
     </Section>
   );

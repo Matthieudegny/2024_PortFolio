@@ -58,6 +58,6 @@ h6 {
     @apply scroll-m-20 text-xl md:text-xl font-semibold;
   }
   p {
-    @apply text-lg;
+    @apply text-lg leading-relaxed text-justify;
   }
 }

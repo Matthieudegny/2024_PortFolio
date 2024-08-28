@@ -37,18 +37,13 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <p className="text-justify">
+          <p>
             I created a full-stack application focused on enhancing stock market
-            investment processes. The application features dynamic dashboards
-            with interactive tables and detailed charts, allowing users to
-            synthesize their trading activities effectively. A calendar system
-            is also integrated to provide time-based documentation of investment
-            activities.
+            investment processes.
           </p>
-          <p className="text-justify">
+          <p>
             The backend is built with a RESTful API using Node.js (Nest.js), and
-            the data is managed through a MySQL database, ensuring efficient
-            storage and retrieval of user information. Additionally, the
+            the data is managed through a MySQL database. Additionally, the
             application fetches real-time economic data, including BTC and
             Nasdaq prices, from public APIs to offer users valuable insights for
             their investment decisions.
@@ -61,6 +56,9 @@ const Project = () => {
             </li>
             <li>
               <strong>Back-End:</strong> TypeScript, Node.js ( Nest.js ), Jest.
+            </li>
+            <li>
+              <strong>Database:</strong> MySQL.
             </li>
           </ul>
         </article>
